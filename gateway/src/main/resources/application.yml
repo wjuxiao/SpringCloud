@@ -13,7 +13,7 @@ spring:
     gateway:
       routes:
       - id: api-a
-        uri: http://localhost:8762
+        uri: lb://SERVICE-RIBBON
         predicates:
         - Path=/api-a/**
         filters:
