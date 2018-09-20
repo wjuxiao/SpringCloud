@@ -11,6 +11,8 @@
         <module name="gateWay" />
         <module name="ribbon" />
         <module name="server" />
+        <module name="zipkin" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
