@@ -11,12 +11,12 @@
         <module name="gateWay" />
         <module name="ribbon" />
         <module name="server" />
-        <module name="zipkin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="service" target="1.7" />
+      <module name="zipkin" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
