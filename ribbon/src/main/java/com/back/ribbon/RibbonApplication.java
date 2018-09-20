@@ -8,6 +8,9 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * 服务消费者 + 断路器
+ */
 @EnableEurekaClient
 //@EnableDiscoveryClient
 @EnableHystrix
