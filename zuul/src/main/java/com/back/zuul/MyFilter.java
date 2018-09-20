@@ -32,11 +32,11 @@ public class MyFilter extends ZuulFilter {
         System.err.println(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
         Object accessToken = request.getParameter("token");
         if(accessToken == null) {
-            System.err.println("token is empty");
+            System.err.println("Sorry,token is empty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             try {
-                ctx.getResponse().getWriter().write("token is empty");
+                ctx.getResponse().getWriter().write("Sorry,token is empty");
             }catch (Exception e){}
 
             return null;
