@@ -6,6 +6,9 @@ import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * 路由网关 - Gateway
+ */
 @SpringBootApplication
 public class GatewayApplication {
 
